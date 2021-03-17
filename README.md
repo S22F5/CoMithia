@@ -5,7 +5,7 @@ Archive of the CoMithia Project (I did not write a single line of this I'm just 
 
 > https://www.mediafire.com/file/4j0xk8bbwal5m2n/CoMithia.rar/file
 
-Chronicles of Mithia is compatible with most/any flavor of Linux based operating system. (This includes Cygwin) Below is an installation guide for Ubuntu x86 (32-bit). Pretty sure this is everything, if it's wrong just post on Facebook and I'll respond eventually.
+Chronicles of Mithia is compatible with most/any flavor of Linux based operating system. (This includes Cygwin) Below is an installation guide for Ubuntu x86 (32-bit).
  
 sudo apt-get install mysql mysqlclient libmysqlclient18\
 sudo apt-get install gcc make gdb\
