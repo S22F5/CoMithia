@@ -2,6 +2,7 @@
 Archive of the CoMithia Project (I did not write a single line of this I'm just archiving it)
 
 > https://www.mediafire.com/file/l6bde8imz4jec58/MithiaEditor.zip/file
+
 > https://www.mediafire.com/file/4j0xk8bbwal5m2n/CoMithia.rar/file
 
 Chronicles of Mithia is compatible with most/any flavor of Linux based operating system. (This includes Cygwin) Below is an installation guide for Ubuntu x86 (32-bit). Pretty sure this is everything, if it's wrong just post on Facebook and I'll respond eventually.
