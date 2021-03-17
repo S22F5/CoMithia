@@ -7,11 +7,11 @@ Archive of the CoMithia Project (I did not write a single line of this I'm just 
 
 Chronicles of Mithia is compatible with most/any flavor of Linux based operating system. (This includes Cygwin) Below is an installation guide for Ubuntu x86 (32-bit). Pretty sure this is everything, if it's wrong just post on Facebook and I'll respond eventually.
  
-sudo apt-get install mysql mysqlclient libmysqlclient18__
-sudo apt-get install gcc make gdb__
-sudo apt-get install liblua-5.1__
+sudo apt-get install mysql mysqlclient libmysqlclient18\
+sudo apt-get install gcc make gdb\
+sudo apt-get install liblua-5.1\
  
-make all__
+make all\
  
 debug:
 gdb <server> -x=gdbc
