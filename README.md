@@ -9,9 +9,9 @@ Chronicles of Mithia is compatible with most/any flavor of Linux based operating
  
 sudo apt-get install mysql mysqlclient libmysqlclient18\
 sudo apt-get install gcc make gdb\
-sudo apt-get install liblua-5.1\
+sudo apt-get install liblua-5.1
  
-make all\
+make all
  
 debug:
 gdb <server> -x=gdbc
