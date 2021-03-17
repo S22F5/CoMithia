@@ -1,0 +1,6 @@
+#! /bin/bash
+
+kill $(ps au | grep login-server)
+kill $(ps au | grep char-server)
+kill $(ps au | grep map-server)
+kill $(ps au | grep save-server)

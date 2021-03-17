@@ -1,0 +1,90 @@
+necromancer = {
+	move = function(mob,target)
+		local xcoord=mob.x
+		local ycoord=mob.y
+	        local gMember
+
+		if(mob.sleep>0) then
+			return
+		end
+
+		if(mob.health<17500) then
+			if(target.blType==BL_PC) then
+				if(target.registry["necroskellspawn"]==0) then
+					target.registry["necroskellspawn"]=1
+					for _,gID in pairs(target.group) do
+						gMember=Player(gID)
+						gMember.registry["necroskellspawn"]=1
+					end
+				end
+			end
+		end
+		if(target.blType==BL_PC) then
+			if(target.registry["necroskellspawn"]==1) then
+				mob:spawn(64,xcoord,ycoord,1)
+				mob:talk(0,"Necromancer: And now, rise from the dead!")
+				target.registry["necroskellspawn"]=2
+				for _,gID in pairs(target.group) do
+					gMember=Player(gID)
+					gMember.registry["necroskellspawn"]=2
+				end
+			end
+		end
+		local moved=true
+		if(mob.paralyzed) then
+                	return
+            	end
+		
+		if(mob.state ~= MOB_HIT) then
+			
+			--while moved==true do
+
+			--math.randomseed( os.time() )
+				mob.side=math.random(0,3)
+				moved=mob:move()
+			--end
+				
+			
+		else
+
+			mobAIbasic.move_hit(mob,target)
+		
+		end
+		
+
+		
+	end,
+	move_hit=function(mob,target)
+		
+	
+		if target then
+			
+				
+				local moved=FindCoords(mob,target,1)
+				if(moved) then
+					--We are right next to them, so attack!	
+					
+					mob:attackIT(target,mob.might,mob.might/2)
+				end
+				-- mob:spawn(1,mob.x+1,mob.y,1,5)	
+				
+			
+		end
+		
+	end,
+
+	on_spawn=function(mob)
+	end,
+
+	on_death=function(mob,player)
+	local gMember
+		player.registry["necroskellspawn"]=0
+		for _,gID in pairs(player.group) do
+			gMember=Player(gID)
+			gMember.registry["necroskellspawn"]=0
+		end
+	end
+
+
+	
+}

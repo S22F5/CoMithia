@@ -1,0 +1,87 @@
+
+From The Jungle 15, 0      to Morass 	22, 98
+From The Jungle 16, 0      to Morass 	23, 98
+From Morass  	22, 99     to The Jungle15, 01
+From Morass  	23, 99     to The Jungle16, 01
+ 
+From Morass  	00, 42     to Thicket 	48, 42
+From Morass  	00, 43     to Thicket 	48, 43 
+From Morass  	00, 26     to Thicket 	48, 26  
+From Morass  	00, 27     to Thicket 	48, 27 
+
+From Thicket  	49, 42     to Morass 	01, 42 
+From Thicket  	49, 43     to Morass 	01, 43
+From Thicket  	49, 26     to Morass 	01, 26 
+From Thicket  	49, 27     to Morass 	01, 27
+
+From Thicket  	04, 00     to Jumble 	04, 48
+From Thicket  	05, 00     to Jumble 	05, 48
+From Thicket  	31, 00     to Jumble 	31, 48
+From Thicket  	32, 00     to Jumble 	32, 48
+
+From Thicket  	00, 21     to Spinny   	28, 14
+From Thicket  	00, 22     to Spinny   	28, 15
+
+From Spinny   	29, 14     to Thicket 	01, 21
+From Spinny    	29, 15     to Thicket 	01, 22 
+ 
+From Thicket  	49, 38     to Tangle 	01, 38
+From Thicket  	49, 39     to Tangle 	01, 39
+From Thicket  	49, 04     to Tangle 	01, 04
+From Thicket  	49, 05     to Tangle 	01, 05 
+
+From Tangle  	00, 38     to Thicket 	48, 38
+From Tangle  	00, 39     to Thicket 	48, 39
+From Tangle  	00, 04     to Thicket 	48, 04
+From Tangle  	00, 05     to Thicket 	48, 05
+
+From Tangle  	09, 49     to Morass 	09, 01  
+From Tangle  	08, 49     to Morass 	08, 01 
+From Tangle  	17, 49     to Morass 	17, 01  
+From Tangle  	18, 49     to Morass 	18, 01
+From Tangle  	33, 49     to Morass 	33, 01  
+From Tangle  	34, 49     to Morass 	34, 01
+From Tangle  	43, 49     to Morass 	43, 01  
+From Tangle  	44, 49     to Morass 	44, 01
+
+From Morass  	09, 00     to Tangle 	09, 48 
+From Morass  	08, 00     to Tangle 	08, 48 
+From Morass  	17, 00     to Tangle 	17, 48  
+From Morass  	18, 00     to Tangle 	18, 48
+From Morass  	33, 00     to Tangle 	33, 48  
+From Morass  	34, 00     to Tangle 	34, 48
+From Morass  	43, 00     to Tangle 	43, 48  
+From Morass  	44, 00     to Tangle 	44, 48
+
+From Chaparral  00, 04     to Morass 	48, 04
+From Chaparral  00, 05     to Morass 	48, 05
+From Chaparral  00, 31     to Morass 	48, 31
+From Chaparral  00, 32     to Morass 	48, 32
+From Chaparral  00, 45     to Morass 	48, 45
+From Chaparral  00, 46     to Morass 	48, 46
+
+From Chaparral  15, 00     to Coppice 	15, 48
+From Chaparral  16, 00     to Coppice 	16, 48
+From Chaparral  41, 00     to Coppice 	41, 48
+From Chaparral  42, 00     to Coppice 	42, 48
+From Coppice  	15, 49     to Chaparral 15, 01
+From Coppice  	16, 49     to Chaparral 16, 01
+From Coppice  	41, 49     to Chaparral 15, 01
+From Coppice  	42, 49     to Chaparral 41, 01
+
+From Coppice  	00, 04     to Tangle 	48, 04
+From Coppice  	00, 05     to Tangle 	48, 05
+From Coppice  	00, 27     to Tangle 	48, 27
+From Coppice  	00, 28     to Tangle 	48, 28
+
+From Coppice  	49, 10     to Bosk   	01, 24
+From Coppice  	49, 11     to Bosk   	01, 25
+From Bosk    	00, 24     to Coppice 	48, 10 
+From Bosk    	00, 25     to Coppice 	48, 11 
+
+From Bosk    	15, 00     to Hedge   	15, 28 
+From Bosk    	16, 00     to Hedge   	16, 28 
+From Hedge    	15, 29     to Bosk   	15, 01 
+From Hedge    	16, 29     to Bosk   	16, 01 
+
+
