@@ -1,5 +1,5 @@
 # CoMithia
-Archive of the CoMithia Project (I did not write a single line of this I'm just archiving it)
+Archive of the CoMithia Project (I'm just archiving this Project)
 
 > https://www.mediafire.com/file/l6bde8imz4jec58/MithiaEditor.zip/file
 
